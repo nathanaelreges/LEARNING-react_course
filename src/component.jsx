@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Component = () => (
-   <h1> Ola React Component </h1>
+const Component = props => (
+   <h1> {props.val} </h1>
 )
 
-export default Component;
+export default Component
