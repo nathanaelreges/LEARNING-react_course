@@ -1,15 +1,16 @@
 {
-  "name": "2-with-webpack",
+  "name": "4-curso_react_redux",
   "version": "1.0.0",
-  "description": "React Boilerplate",
+  "description": "React Course",
   "repository": {
     "type": "git",
-    "url": "git@github.com:nathanaelreges/LEARNING-react_boilerplate.git"
+    "url": "git@github.com:nathanaelreges/LEARNING-react_course.git"
   },
   "main": "index.js",
   "scripts": {
     "prod": "webpack --config ./config/webpack.prod.js",
-    "dev": "webpack-dev-server --config ./config/webpack.dev.js"
+    "dev": "webpack-dev-server --config ./config/webpack.dev.js",
+    "build-tst": "webpack --config ./config/webpack.dev.js"
   },
   "keywords": [],
   "author": "Nathanael Reges",
