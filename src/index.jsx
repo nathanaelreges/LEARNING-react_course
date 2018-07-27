@@ -1,7 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Component from './component'
+import FirstComp, { SecondComp } from './component'
 
 
-ReactDOM.render(<Component val="Show!" />, document.querySelector('.app'))
+ReactDOM.render(
+   <div>
+      <FirstComp val="Show!" />
+      <SecondComp val="Show!" />
+   </div>
+   , document.querySelector('.app'))
 
