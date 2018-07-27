@@ -4,7 +4,7 @@ import ClassComponent from './ClassComponent'
 
 
 ReactDOM.render(
-   <ClassComponent inner="Class Component" />
+   <ClassComponent label="Counter" initialValue={10} />
    , document.querySelector('.app')
 )
 
