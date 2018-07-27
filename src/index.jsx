@@ -1,11 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import SilvaFamily from './SilvaFamily'
+import Family from './Family'
+import Member from './Member';
 
 
 ReactDOM.render(
    <div>
-      <SilvaFamily />
+      <Family>
+         <Member firstName="Pedro" lastName="Silva"></Member>
+      </Family>
    </div>
    , document.querySelector('.app'))
 
