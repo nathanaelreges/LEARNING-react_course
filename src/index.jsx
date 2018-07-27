@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ClassComponent from './ClassComponent'
+import Field from './Field'
 
 
 ReactDOM.render(
-   <ClassComponent label="Counter" initialValue={10} />
+   <Field initialValue="Texto" />
    , document.querySelector('.app')
 )
 
