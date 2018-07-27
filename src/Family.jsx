@@ -1,12 +1,10 @@
 import React from 'react'
-import Member from './Member'
 
-const SilvaFamily = props => (
-   <div>
+const Family = props => (
+   <div> 
       <h1>Família</h1>
-      {props.children}
+      { React.cloneElement(props.children, { ...props }) }
    </div>
 )
 
-
-export default SilvaFamily
+export default Family
