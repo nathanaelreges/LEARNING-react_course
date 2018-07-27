@@ -1,12 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import FirstComp, { SecondComp } from './component'
+import SilvaFamily from './SilvaFamily'
 
 
 ReactDOM.render(
    <div>
-      <FirstComp val="Show!" />
-      <SecondComp val="Show!" />
+      <SilvaFamily />
    </div>
    , document.querySelector('.app'))
 
